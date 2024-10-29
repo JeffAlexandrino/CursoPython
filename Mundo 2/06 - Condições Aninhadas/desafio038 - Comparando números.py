@@ -1,5 +1,5 @@
-n1=int(input('digite um número:'))
-n2=int(input('digite outro número:'))
+n1 = int(input('digite um número:'))
+n2 = int(input('digite outro número:'))
 
 if n1 > n2:
     print(f'{n1} é maior que {n2}')
