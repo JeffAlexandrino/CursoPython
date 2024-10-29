@@ -1,6 +1,6 @@
-n1=float(input('digite o ângulo que você deseja:'))
+n1 = float(input('digite o ângulo que você deseja:'))
 import math
-a=math.radians(n1)
+a = math.radians(n1)
 seno=math.sin(a)
 
 b=math.radians(n1)
@@ -8,7 +8,6 @@ cosseno=math.cos(a)
 
 c=math.radians(n1)
 tangente=math.tan(c)
-
 
 print(f'o ângulo de {n1} tem o SENO de {seno:.2f}')
 print(f'o ângulo de {n1} tem o COSSENO de {cosseno:.2f}')
