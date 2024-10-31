@@ -1,8 +1,6 @@
 n1=int(input('\033[41m digite um número: '))
 print('irei dizer se o número que você digitou e par ou impar')
 
-
-
 resu=n1%2
 
 if resu == 1:

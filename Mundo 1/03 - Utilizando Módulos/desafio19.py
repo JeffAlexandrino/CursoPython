@@ -1,9 +1,9 @@
-davi=str(input('primeiro aluno:'))
-gledson=str(input('segundo aluno:'))
-silva=str(input('terceiro aluno:'))
-bene=str(input('quarto aluno:'))
+jeff=str(input('primeiro aluno:'))
+joao=str(input('segundo aluno:'))
+luiz=str(input('terceiro aluno:'))
+fulano=str(input('quarto aluno:'))
 
-lista=[davi, gledson, silva, bene]
+lista=[jeff, joao, luiz, fulano]
 
 import random
 

@@ -6,13 +6,6 @@ lista=('Java', 'Javascript', 'Kotlin' ,'R','PHP','GO','C','Swift' ,' Ruby', 'Rus
 
 n2=random.choice(lista)
 
-
-
-
-
-
-
-
 print(f'a linguagem escolhida do seu grupo será')
 
 print(f'{n2} ')

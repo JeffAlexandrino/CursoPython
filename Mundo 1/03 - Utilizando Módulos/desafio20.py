@@ -1,11 +1,11 @@
-davi=input('primeiro aluno:')
-gledson=input('segundo aluno:')
-silva=input('terceiro aluno:')
-bene=input('quarto aluno:')
+jeff = input('primeiro aluno:')
+joao = input('segundo aluno:')
+luiz = input('terceiro aluno:')
+fulano = input('quarto aluno:')
 
 import random
 
-lista=[davi, gledson, silva, bene]
+lista=[jeff, joao, luiz, fulano]
 b=random.sample(lista, k=len(lista))
 
 print(f'os alunos escolhidos na sequencia foram {b}')
