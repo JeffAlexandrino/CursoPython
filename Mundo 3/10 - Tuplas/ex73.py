@@ -1,0 +1,12 @@
+times = ('Flamengo', 'Internacional', 'Atlético-MG', 'São Paulo', 'Fluminense', 'Grêmio', 'Palmeiras', 'Santos', 'Athletico-PR', 'Bragantino', 'Ceará', 'Corinthians', 'Atlético-GO', 'Bahia', 'Sport', 'Fortaleza', 'Vasco', 'Goiás', 'Coritiba', 'Botafogo')
+
+print('-=' * 15)
+print(f'Lista de times do Brasileirão: {times}')
+print('-=' * 15)
+print(f'Os 5 primeiros são: {times[:5]}')
+print('-=' * 15)
+print(f'Os 4 últimos são: {times[-4:]}')
+print('-=' * 15)
+print(f'Times em ordem alfabética: {sorted(times)}')
+print('-=' * 15)
+print(f'O Internacional está na {times.index("Internacional") + 1}ª posição') if 'Internacional' in times else print('O Internacional não está na lista de times')
